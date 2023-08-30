@@ -14,12 +14,11 @@ Follow these steps to set up and run the project locally.
 
 ### Installation
 
- Clone the repository:
-
-   ```sh
-   git clone https://github.com/your-username/your-blog-api.git
-   cd your-blog-api
+- Clone the repository
  
+- Edit OrmConfig.json to match required specs
+ 
+
 ## Running the app
 
 ```bash
