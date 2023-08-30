@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import { createConnection } from "typeorm";
-import router from "./route";
+import router from "./routes/index";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -18,8 +18,7 @@ createConnection()
   });
 
 // Routes
-app.use("/blog", router);
-
+app.use("/api/v1", router);
 
 // ... Other configurations ...
 

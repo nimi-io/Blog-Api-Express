@@ -1,7 +1,13 @@
 import { Request, Response, Router } from "express";
 import { getRepository } from "typeorm";
-import { Post } from "./entity/Post";
-import { creatPost, deletePost, getAllPost, getPost, updatePost } from "./controller";
+import { Post } from "../entity/Post";
+import {
+  creatPost,
+  deletePost,
+  getAllPost,
+  getPost,
+  updatePost,
+} from "../controller/blogController";
 
 const router = Router();
 
