@@ -15,7 +15,7 @@
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "@types/express": "^4.17.12",
+    "@types/express": "^4.17.17",
     "@types/node": "^16.7.13",
     "@types/pg": "^8.6.5",
     "ts-node": "^10.4.0",
