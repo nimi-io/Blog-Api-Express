@@ -16,10 +16,6 @@ Follow these steps to set up and run the project locally.
 
  Clone the repository:
 
-   ```sh
-   git clone https://github.com/your-username/your-blog-api.git
-   cd your-blog-api
- 
 ## Running the app
 
 ```bash
