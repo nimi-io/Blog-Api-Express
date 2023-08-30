@@ -68,6 +68,3 @@ $ npm run dev
     "content": "Lorem ipsum dolor sit amet..."
   }
 
-## License
-
-Nest is [MIT licensed](LICENSE).
