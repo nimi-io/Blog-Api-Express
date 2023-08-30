@@ -14,8 +14,9 @@ Follow these steps to set up and run the project locally.
 
 ### Installation
 
- Clone the repository
- Edit OrmConfig.json to match required specs
+- Clone the repository
+ 
+- Edit OrmConfig.json to match required specs
  
 
 ## Running the app
