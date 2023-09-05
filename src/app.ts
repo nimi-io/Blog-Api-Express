@@ -17,10 +17,8 @@ createConnection()
     console.error("Database connection error:", error);
   });
 
-// Routes
 app.use("/api/v1", router);
 
-// ... Other configurations ...
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

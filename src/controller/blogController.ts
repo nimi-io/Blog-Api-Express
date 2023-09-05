@@ -1,6 +1,8 @@
 import { getRepository } from "typeorm";
 import { Post } from "../entity/Post";
+
 import { Request, Response } from "express";
+import { validateCreatePostAsync } from "./utils";
 
 export const getAllPost = async (req: Request, res: Response) => {
   try {
@@ -54,6 +56,10 @@ export const getPost = async (req: Request, res: Response) => {
 export const creatPost = async (req: Request, res: Response) => {
   try {
     const { title, content } = req.body;
+    const validate = await validateCreatePostAsync({ title, content });
+    if (!validate.status) {
+      return res.status(406).json({ error: `${validate.err}` });
+    }
     const postRepository = getRepository(Post);
 
     const newPost = postRepository.create({ title, content });
