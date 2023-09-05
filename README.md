@@ -39,7 +39,7 @@ $ npm run dev
 
 ### Get All Blog Posts
 
-- **URL:** `/blog/posts`
+- **URL:** `api/v1/blog/posts`
 - **Method:** `GET`
 - **Description:** Get a list of all blog posts.
 - **Query Parameters:**
@@ -49,7 +49,7 @@ $ npm run dev
 
 ### Get a Specific Blog Post
 
-- **URL:** `/blog/posts/:id`
+- **URL:** `api/v1/blog/posts/:id`
 - **Method:** `GET`
 - **Description:** Get details of a specific blog post.
 - **Parameters:**
@@ -57,7 +57,7 @@ $ npm run dev
 
 ### Add a New Blog Post
 
-- **URL:** `/blog/posts`
+- **URL:** `api/v1/blog/posts`
 - **Method:** `POST`
 - **Description:** Create a new blog post.
 - **Request Body:**
